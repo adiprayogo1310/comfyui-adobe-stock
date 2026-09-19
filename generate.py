@@ -22,10 +22,20 @@ def logs_path():
     return Path(__file__).resolve().parent / "comfyui.log"
 
 
+def log_tail(n: int = 50):
+    try:
+        with open(logs_path(), encoding="utf-8", errors="replace") as fh:
+            return "".join(fh.readlines()[-n:])
+    except OSError:
+        return "(comfyui.log tidak terbaca)"
+
+
 def wait_for_server(proc: subprocess.Popen, timeout: int = 900):
     start = time.time()
     while time.time() - start < timeout:
         if proc.poll() is not None:
+            print("--- comfyui.log (tail) ---")
+            print(log_tail())
             raise RuntimeError(f"ComfyUI exited early (code={proc.returncode})")
         try:
             with urllib.request.urlopen(f"{BASE_URL}/system_stats", timeout=5) as resp:
