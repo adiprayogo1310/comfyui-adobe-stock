@@ -1,32 +1,32 @@
 [
   {
-    "name": "growth_chart_arrow_up",
-    "positive": "3D render, glossy emerald green arrow going up with rising bar chart, success and growth concept, gradient light background, soft studio lighting, clean composition, high quality",
-    "negative": "text, watermark, logo, signature, people, hands, blurry, noise, low quality, deformed"
+    "name": "flat_cat_icon",
+    "positive": "cute cartoon cat face, flat vector illustration, minimalist sticker style, bold clean shapes, solid soft colors, simple design, isolated on clean white background, no outline text",
+    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed, extra limbs, multiple heads"
   },
   {
-    "name": "growth_gold_coin_stack",
-    "positive": "3D render, stack of shiny gold coins with small green sprout growing from top, financial growth concept, clean gradient background, soft shadow, studio lighting, high quality",
-    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+    "name": "flat_cloud_sun",
+    "positive": "flat vector illustration of soft cartoon cloud and smiling sun, minimalist children sticker style, warm yellow and white on light blue background, bold simple shapes",
+    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed"
   },
   {
-    "name": "growth_startup_rocket",
-    "positive": "3D render, glossy orange and purple rocket launching upward with motion trail, startup success concept, clean white background, soft shadow, isolated icon style, studio lighting, high quality",
-    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+    "name": "flat_stars_moon",
+    "positive": "flat vector illustration of crescent moon with small stars, minimalist cartoon night sky sticker, deep blue background, simple playful shapes, high contrast",
+    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, blurry, noise, deformed"
   },
   {
-    "name": "ai_chatbot_icon",
-    "positive": "3D render, shiny blue gradient chatbot bubble icon with glowing neural nodes and holographic ring, artificial intelligence concept, clean light background, soft shadow, centered product icon style, high quality",
-    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+    "name": "flat_dog_icon",
+    "positive": "cute cartoon puppy face, flat vector illustration, minimalist sticker style, bold clean shapes, solid warm colors, simple design, isolated on clean white background",
+    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed, extra limbs"
   },
   {
-    "name": "ai_glowing_brain",
-    "positive": "3D render, glossy holographic brain with glowing neural network connections and small circuit lines, artificial intelligence concept, dark blue gradient background, high quality",
-    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+    "name": "flat_rainbow_clouds",
+    "positive": "flat vector illustration of rainbow arching over cute cartoon clouds, minimalist children sticker style, bright cheerful colors on white background, bold simple shapes",
+    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, blurry, noise, deformed"
   },
   {
-    "name": "ai_robot_hand",
-    "positive": "3D render, futuristic glossy white robot hand reaching forward with glowing holographic panels, artificial intelligence technology concept, clean gradient background, studio lighting, high quality",
-    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+    "name": "flat_fox_sleeping",
+    "positive": "cute sleeping cartoon fox curled up, flat vector illustration, minimalist sticker style, solid orange and white shapes, soft warm colors, isolated on clean white background",
+    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed, extra limbs"
   }
 ]
