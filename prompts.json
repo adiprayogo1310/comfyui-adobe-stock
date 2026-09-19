@@ -1,42 +1,32 @@
 [
   {
-    "name": "decorative_podium_pastel",
-    "positive": "3D render, minimalist decorative podium pedestal in soft pastel colors, smooth glossy surface, subtle reflections, clean white background with soft shadow, product mockup, studio lighting, centered composition, high quality",
-    "negative": "text, watermark, logo, signature, people, hands, blurry, noise, low quality, deformed, extra objects"
-  },
-  {
-    "name": "iridescent_glass_orb",
-    "positive": "3D render, translucent iridescent glass orb and cylinder, flowing gradient light refractions, holographic teal and magenta tones, clean dark background, soft studio glow, high detail",
-    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
-  },
-  {
-    "name": "abstract_geo_architecture",
-    "positive": "3D render, minimal geometric arch and stairs, smooth pastel peach and blue tones, soft ambient lighting, clean composition, trendy abstract architecture, high quality",
-    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed, messy"
-  },
-  {
-    "name": "business_growth_arrow",
-    "positive": "3D render, glossy blue and gold ascending arrow with rising bar chart and coins, growth and success concept, gradient background, business theme, soft lighting, clean composition, high quality",
+    "name": "growth_chart_arrow_up",
+    "positive": "3D render, glossy emerald green arrow going up with rising bar chart, success and growth concept, gradient light background, soft studio lighting, clean composition, high quality",
     "negative": "text, watermark, logo, signature, people, hands, blurry, noise, low quality, deformed"
   },
   {
-    "name": "tech_ai_chatbot_icon",
-    "positive": "3D render, shiny blue gradient chatbot bubble icon with glowing neural nodes, artificial intelligence concept, clean light background, soft shadow, centered product icon style, high quality",
+    "name": "growth_gold_coin_stack",
+    "positive": "3D render, stack of shiny gold coins with small green sprout growing from top, financial growth concept, clean gradient background, soft shadow, studio lighting, high quality",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   },
   {
-    "name": "rocket_startup_icon",
-    "positive": "3D render, glossy orange and purple rocket launching upward, startup success concept, clean white background, soft shadow, isolated icon style, studio lighting, high quality",
+    "name": "growth_startup_rocket",
+    "positive": "3D render, glossy orange and purple rocket launching upward with motion trail, startup success concept, clean white background, soft shadow, isolated icon style, studio lighting, high quality",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   },
   {
-    "name": "fluid_wave_trend_colors",
-    "positive": "3D render, smooth glossy fluid waves with warm cocoa brown, sand and cream gradient colors, elegant flowing shapes, soft studio lighting, abstract wallpaper background, high detail",
+    "name": "ai_chatbot_icon",
+    "positive": "3D render, shiny blue gradient chatbot bubble icon with glowing neural nodes and holographic ring, artificial intelligence concept, clean light background, soft shadow, centered product icon style, high quality",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   },
   {
-    "name": "holographic_neon_mesh",
-    "positive": "abstract 3D mesh with holographic neon gradient lines, glowing iridescent curves, deep blue and purple gradient background, futuristic clean look, high resolution",
+    "name": "ai_glowing_brain",
+    "positive": "3D render, glossy holographic brain with glowing neural network connections and small circuit lines, artificial intelligence concept, dark blue gradient background, high quality",
+    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+  },
+  {
+    "name": "ai_robot_hand",
+    "positive": "3D render, futuristic glossy white robot hand reaching forward with glowing holographic panels, artificial intelligence technology concept, clean gradient background, studio lighting, high quality",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   }
 ]
