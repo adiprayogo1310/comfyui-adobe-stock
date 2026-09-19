@@ -1,0 +1,32 @@
+[
+  {
+    "name": "glossy_3d_spheres",
+    "positive": "3D render, glossy spheres floating on a smooth pastel gradient background, soft studio lighting, reflections, vibrant blue and purple tones, minimalist, high quality",
+    "negative": "text, watermark, logo, signature, people, hands, faces, blurry, noise, low quality, deformed, extra limbs"
+  },
+  {
+    "name": "iridescent_fluid_waves",
+    "positive": "3D render of smooth iridescent liquid waves, flowing gradient shapes, glossy surface, pink and teal gradient tones, soft studio light, abstract wallpaper background, high detail",
+    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+  },
+  {
+    "name": "neon_gradient_mesh",
+    "positive": "abstract 3D mesh surface with neon gradient lines, glowing curves, dark purple to orange gradient background, futuristic, clean, high resolution",
+    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+  },
+  {
+    "name": "glass_cubes_pastel",
+    "positive": "3D render of translucent glass cubes stacked on soft pink and mint gradient background, refraction, caustics, minimalist composition, studio lighting, high quality",
+    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+  },
+  {
+    "name": "chrome_metal_blobs",
+    "positive": "3D render of chrome metal blobs, liquid metal shapes reflecting each other, gradient teal and gold background, studio lighting, elegant, high detail",
+    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+  },
+  {
+    "name": "soft_gradient_clouds_3d",
+    "positive": "3D isometric render of soft gradient clouds, dreamy pastel blue, lavender and peach tones, minimal abstract landscape, clean background, high quality",
+    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
+  }
+]

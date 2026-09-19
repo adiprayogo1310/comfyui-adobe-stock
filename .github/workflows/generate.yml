@@ -1,0 +1,71 @@
+name: Generate Images
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_count:
+        description: "Jumlah gambar yang dihasilkan per run"
+        type: number
+        default: 4
+      model_url:
+        description: "URL checkpoint SD (safetensors)"
+        type: string
+        default: "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors"
+  # optional: jalankan terjadwal
+  # schedule:
+  #   - cron: "0 3 * * *"
+
+permissions:
+  contents: read
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install CPU PyTorch
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+
+      - name: Install ComfyUI
+        run: |
+          git clone --depth 1 https://github.com/comfyanonymous/ComfyUI.git
+          pip install -r <(grep -Ev '^(torch|torchvision|torchaudio)([<>=~]|$)' ComfyUI/requirements.txt)
+
+      - name: Download SD 1.5 model
+        run: |
+          mkdir -p ComfyUI/models/checkpoints
+          curl -fL --retry 5 --retry-all-errors -o ComfyUI/models/checkpoints/sd15.safetensors "${{ github.event.inputs.model_url }}"
+          ls -lh ComfyUI/models/checkpoints
+
+      - name: Generate images (ComfyUI CPU)
+        run: |
+          python generate.py --batch "${{ github.event.inputs.batch_count }}"
+          ls -lh output
+
+      - name: Upscale ke 2048x2048 (minimum 4MP Adobe Stock)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq imagemagick
+          mkdir -p stock_ready
+          for f in output/*.png; do
+            base="$(basename "$f")"
+            convert "$f" -resize 2048x2048 "stock_ready/$base"
+          done
+          ls -lh stock_ready
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: generated-images
+          path: |
+            output/
+            stock_ready/
