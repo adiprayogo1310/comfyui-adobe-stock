@@ -3,4 +3,4 @@ stock_ready/
 ComfyUI/
 __pycache__/
 *.pyc
-comfyui.log
+comfyui.logstock_svg/

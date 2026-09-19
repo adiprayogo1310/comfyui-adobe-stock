@@ -62,9 +62,16 @@ jobs:
           done
           ls -lh stock_ready
 
+      - name: Konversi ke SVG vector (vtracer)
+        run: |
+          python -m pip install vtracer
+          python to_svg.py stock_ready stock_svg
+          ls -lh stock_svg
+
       - uses: actions/upload-artifact@v4
         with:
           name: generated-images
           path: |
             output/
             stock_ready/
+            stock_svg/
