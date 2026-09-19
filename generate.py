@@ -96,13 +96,13 @@ def save_outputs(outputs, tag):
 
 
 def main():
+    global PORT, BASE_URL
     parser = argparse.ArgumentParser(description="Generate gambar 3D/gradient dengan ComfyUI (CPU).")
     parser.add_argument("--batch", type=int, default=4, help="Jumlah gambar per run (default 4)")
     parser.add_argument("--seed", type=int, default=None, help="Seed (default acak per gambar)")
     parser.add_argument("--port", type=int, default=PORT)
     args = parser.parse_args()
 
-    global PORT, BASE_URL
     PORT = args.port
     BASE_URL = f"http://127.0.0.1:{PORT}"
 
