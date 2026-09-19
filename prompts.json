@@ -1,32 +1,42 @@
 [
   {
-    "name": "glossy_3d_spheres",
-    "positive": "3D render, glossy spheres floating on a smooth pastel gradient background, soft studio lighting, reflections, vibrant blue and purple tones, minimalist, high quality",
-    "negative": "text, watermark, logo, signature, people, hands, faces, blurry, noise, low quality, deformed, extra limbs"
+    "name": "decorative_podium_pastel",
+    "positive": "3D render, minimalist decorative podium pedestal in soft pastel colors, smooth glossy surface, subtle reflections, clean white background with soft shadow, product mockup, studio lighting, centered composition, high quality",
+    "negative": "text, watermark, logo, signature, people, hands, blurry, noise, low quality, deformed, extra objects"
   },
   {
-    "name": "iridescent_fluid_waves",
-    "positive": "3D render of smooth iridescent liquid waves, flowing gradient shapes, glossy surface, pink and teal gradient tones, soft studio light, abstract wallpaper background, high detail",
+    "name": "iridescent_glass_orb",
+    "positive": "3D render, translucent iridescent glass orb and cylinder, flowing gradient light refractions, holographic teal and magenta tones, clean dark background, soft studio glow, high detail",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   },
   {
-    "name": "neon_gradient_mesh",
-    "positive": "abstract 3D mesh surface with neon gradient lines, glowing curves, dark purple to orange gradient background, futuristic, clean, high resolution",
+    "name": "abstract_geo_architecture",
+    "positive": "3D render, minimal geometric arch and stairs, smooth pastel peach and blue tones, soft ambient lighting, clean composition, trendy abstract architecture, high quality",
+    "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed, messy"
+  },
+  {
+    "name": "business_growth_arrow",
+    "positive": "3D render, glossy blue and gold ascending arrow with rising bar chart and coins, growth and success concept, gradient background, business theme, soft lighting, clean composition, high quality",
+    "negative": "text, watermark, logo, signature, people, hands, blurry, noise, low quality, deformed"
+  },
+  {
+    "name": "tech_ai_chatbot_icon",
+    "positive": "3D render, shiny blue gradient chatbot bubble icon with glowing neural nodes, artificial intelligence concept, clean light background, soft shadow, centered product icon style, high quality",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   },
   {
-    "name": "glass_cubes_pastel",
-    "positive": "3D render of translucent glass cubes stacked on soft pink and mint gradient background, refraction, caustics, minimalist composition, studio lighting, high quality",
+    "name": "rocket_startup_icon",
+    "positive": "3D render, glossy orange and purple rocket launching upward, startup success concept, clean white background, soft shadow, isolated icon style, studio lighting, high quality",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   },
   {
-    "name": "chrome_metal_blobs",
-    "positive": "3D render of chrome metal blobs, liquid metal shapes reflecting each other, gradient teal and gold background, studio lighting, elegant, high detail",
+    "name": "fluid_wave_trend_colors",
+    "positive": "3D render, smooth glossy fluid waves with warm cocoa brown, sand and cream gradient colors, elegant flowing shapes, soft studio lighting, abstract wallpaper background, high detail",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   },
   {
-    "name": "soft_gradient_clouds_3d",
-    "positive": "3D isometric render of soft gradient clouds, dreamy pastel blue, lavender and peach tones, minimal abstract landscape, clean background, high quality",
+    "name": "holographic_neon_mesh",
+    "positive": "abstract 3D mesh with holographic neon gradient lines, glowing iridescent curves, deep blue and purple gradient background, futuristic clean look, high resolution",
     "negative": "text, watermark, logo, signature, people, blurry, noise, low quality, deformed"
   }
 ]
