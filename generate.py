@@ -57,10 +57,10 @@ def build_workflow(seed, prompt, negative, width, height, prefix):
             "class_type": "KSampler",
             "inputs": {
                 "seed": seed,
-                "steps": 25,
+                "steps": 30,
                 "cfg": 7.0,
-                "sampler_name": "euler",
-                "scheduler": "normal",
+                "sampler_name": "dpmpp_2m",
+                "scheduler": "karras",
                 "denoise": 1.0,
                 "model": ["4", 0],
                 "positive": ["6", 0],

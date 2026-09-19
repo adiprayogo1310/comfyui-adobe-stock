@@ -8,9 +8,9 @@ on:
         type: number
         default: 4
       model_url:
-        description: "URL checkpoint SD (safetensors)"
+        description: "URL checkpoint (safetensors)"
         type: string
-        default: "https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.safetensors"
+        default: "https://huggingface.co/Lykon/DreamShaper/resolve/main/DreamShaper_8_pruned.safetensors"
   # optional: jalankan terjadwal
   # schedule:
   #   - cron: "0 3 * * *"
@@ -40,7 +40,7 @@ jobs:
           git clone --depth 1 https://github.com/comfyanonymous/ComfyUI.git
           pip install -r <(grep -Ev '^(torch|torchvision|torchaudio)([<>=~]|$)' ComfyUI/requirements.txt)
 
-      - name: Download SD 1.5 model
+      - name: Download model
         run: |
           mkdir -p ComfyUI/models/checkpoints
           curl -fL --retry 5 --retry-all-errors -o ComfyUI/models/checkpoints/sd15.safetensors "${{ github.event.inputs.model_url }}"

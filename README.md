@@ -41,5 +41,5 @@ stock_ready/                     # gambar upscale 2048x2048 (>=4MP)
 ## Catatan teknis
 
 - Runner GitHub standar **tanpa GPU**, jadi ComfyUI berjalan di **CPU** (`--cpu`).
-- Model default: Stable Diffusion 1.5 (resmi dari Hugging Face, ~4 GB, lisensi CreativeML Open RAIL-M — boleh dipakai komersial).
+- Model default: **DreamShaper 8** (checkpoint community, ~2 GB, lisensi CreativeML Open RAIL-M) — jauh lebih baik untuk render mewah/3D daripada SD 1.5 base. Bisa diganti lewat input `model_url` (file `.safetensors` apa pun).
 - Butuh disk ~8–10 GB di runner; jika gagal karena space, gunakan model lebih kecil dengan mengganti `model_url`.
