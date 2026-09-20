@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Generate 3D/gradient stock images using ComfyUI (headless, CPU) via its API."""
+"""Generate 3D/gradient stock images using ComfyUI (headless, CPU) via its API.
+Versi ditingkatkan: mendukung resolusi SDXL (1024) + step/cfg per-prompt."""
 import argparse
 import json
 import random
@@ -14,7 +15,7 @@ from pathlib import Path
 COMFY_DIR = Path(__file__).resolve().parent / "ComfyUI"
 PORT = 8188
 BASE_URL = f"http://127.0.0.1:{PORT}"
-CHECKPOINT = "sd15.safetensors"
+CHECKPOINT = "sd15.safetensors"  # nama file di ComfyUI/models/checkpoints dari workflow
 OUTPUT_DIR = Path(__file__).resolve().parent / "output"
 
 
@@ -47,7 +48,7 @@ def wait_for_server(proc: subprocess.Popen, timeout: int = 900):
     raise TimeoutError(f"ComfyUI tidak merespon dalam {timeout}s. Cek {logs_path()}")
 
 
-def build_workflow(seed, prompt, negative, width, height, prefix):
+def build_workflow(seed, prompt, negative, width, height, prefix, steps, cfg):
     return {
         "4": {"class_type": "CheckpointLoaderSimple", "inputs": {"ckpt_name": CHECKPOINT}},
         "6": {"class_type": "CLIPTextEncode", "inputs": {"text": prompt, "clip": ["4", 1]}},
@@ -57,8 +58,8 @@ def build_workflow(seed, prompt, negative, width, height, prefix):
             "class_type": "KSampler",
             "inputs": {
                 "seed": seed,
-                "steps": 30,
-                "cfg": 7.0,
+                "steps": steps,
+                "cfg": cfg,
                 "sampler_name": "dpmpp_2m",
                 "scheduler": "karras",
                 "denoise": 1.0,
@@ -107,7 +108,7 @@ def save_outputs(outputs, tag):
 
 def main():
     global PORT, BASE_URL
-    parser = argparse.ArgumentParser(description="Generate gambar 3D/gradient dengan ComfyUI (CPU).")
+    parser = argparse.ArgumentParser(description="Generate gambar dgn ComfyUI (CPU).")
     parser.add_argument("--batch", type=int, default=4, help="Jumlah gambar per run (default 4)")
     parser.add_argument("--seed", type=int, default=None, help="Seed (default acak per gambar)")
     parser.add_argument("--port", type=int, default=PORT)
@@ -142,19 +143,22 @@ def main():
             item = prompts[i % len(prompts)]
             seed = args.seed if args.seed is not None else random.randint(0, 2**31 - 1)
             tag = f"{item['name']}_{seed}"
-            print(f"[{i + 1}/{args.batch}] {tag}")
+            w = int(item.get("width", 1024))
+            h = int(item.get("height", 1024))
+            steps = int(item.get("steps", 25))
+            cfg = float(item.get("cfg", 7.0))
+            print(f"[{i + 1}/{args.batch}] {tag} ({w}x{h}, steps={steps}, cfg={cfg})")
             wf = build_workflow(
                 seed,
                 item["positive"],
                 item.get("negative", ""),
-                int(item.get("width", 512)),
-                int(item.get("height", 512)),
-                "comfyui",
+                w, h, "comfyui", steps, cfg,
             )
             outputs = exec_prompt(wf)
             save_outputs(outputs, tag)
             manifest.append(
-                {"file": f"{tag}.png", "seed": seed, **{k: item.get(k) for k in ("name", "positive", "negative", "width", "height")}}
+                {"file": f"{tag}.png", "seed": seed,
+                 **{k: item.get(k) for k in ("name", "positive", "negative", "width", "height", "steps", "cfg")}}
             )
         with open(OUTPUT_DIR / "metadata.json", "w", encoding="utf-8") as fh:
             json.dump(manifest, fh, ensure_ascii=False, indent=2)
