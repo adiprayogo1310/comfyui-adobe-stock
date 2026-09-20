@@ -1,8 +1,8 @@
 [
   {
     "name": "young_man_peace_sign",
-    "positive": "A flat vector illustration of a young man with dark wavy hair and a short goatee. He is looking at the camera with a playful expression and has his hand in front of his face making a clear peace or V sign, two fingers raised separated, looking through the gap between his fingers. He is wearing a light cream or beige shirt with an open collar. The art style is minimalist, clean, with flat color blocks and simple black outlines. Pure white background. Minimalist character design, 1x1",
-    "negative": "photo, realistic, 3d render, gradient, shading, shadows, texture, detailed, complex, text, watermark, logo, frame, border, extra objects, deformed hands, extra fingers, missing fingers, six fingers, bad anatomy, blurry, lowres",
+    "positive": "A flat vector illustration of a young man with dark wavy hair and a short goatee. He is looking at the camera with a playful expression, raising his hand near his face showing a clear peace sign: the index finger and middle finger raised and separated in a V shape, ring finger and pinky folded down against the palm, thumb resting across them. He is wearing a light cream or beige shirt with an open collar. The art style is minimalist, clean, with flat color blocks and simple black outlines. Pure white background. Minimalist character design, 1x1",
+    "negative": "photo, realistic, 3d render, gradient, shading, shadows, texture, detailed, complex, text, watermark, logo, frame, border, extra objects, deformed hands, extra fingers, missing fingers, six fingers, bad anatomy, thumb raised, index and thumb gesture, L sign, gun sign, blurry, lowres",
     "width": 512,
     "height": 512,
     "steps": 22,
