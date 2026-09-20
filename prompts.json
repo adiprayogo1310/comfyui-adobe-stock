@@ -1,29 +1,8 @@
 [
   {
-    "name": "kucing_oren_tidur_melingkar_v1",
-    "positive": "minimalist flat vector icon of kucing oren tidur melingkar, Minimalist flat vector icon on a pure white background. Preserve the subject's recognizable shape, proportions, orientation, and essential features. Simplify its appearance into a few large, smooth, rounded solid shapes while keeping the subject clearly identifiable. Create a clean, playful, modern pictogram with soft organic curves, simplified geometry, and minimal visual complexity. Center the complete subject on a 1:1 square canvas, occupying approximately 30% of the image area, with generous white space on all sides. No outlines, gradients, shadows, textures, realistic details, 3D effects, text, logos, frames, decorative elements, or additional objects. The final result should be a small, recognizable, professionally designed minimalist microstock icon, not a detailed illustration or realistic rendering.",
-    "negative": "outlines, contour lines, line art, strokes, sketch, pen drawing, borders, circle, circular frame, badge, rings, gradients, drop shadow, shadows, textures, realistic details, 3d render, photo, gloss, noise, grain, blur, text, watermark, logo, signature, frame, border, decorative elements, extra objects, multiple elements, disconnected pieces, deformed, ugly, unclear, cluttered, overdetailing",
-    "width": 512,
-    "height": 512
-  },
-  {
-    "name": "kucing_oren_tidur_melingkar_v2",
-    "positive": "minimalist flat vector icon of kucing oren tidur melingkar, Minimalist flat vector icon on a pure white background. Preserve the subject's recognizable shape, proportions, orientation, and essential features. Simplify its appearance into a few large, smooth, rounded solid shapes while keeping the subject clearly identifiable. Create a clean, playful, modern pictogram with soft organic curves, simplified geometry, and minimal visual complexity. Center the complete subject on a 1:1 square canvas, occupying approximately 30% of the image area, with generous white space on all sides. No outlines, gradients, shadows, textures, realistic details, 3D effects, text, logos, frames, decorative elements, or additional objects. The final result should be a small, recognizable, professionally designed minimalist microstock icon, not a detailed illustration or realistic rendering.",
-    "negative": "outlines, contour lines, line art, strokes, sketch, pen drawing, borders, circle, circular frame, badge, rings, gradients, drop shadow, shadows, textures, realistic details, 3d render, photo, gloss, noise, grain, blur, text, watermark, logo, signature, frame, border, decorative elements, extra objects, multiple elements, disconnected pieces, deformed, ugly, unclear, cluttered, overdetailing",
-    "width": 512,
-    "height": 512
-  },
-  {
-    "name": "kucing_oren_tidur_melingkar_v3",
-    "positive": "minimalist flat vector icon of kucing oren tidur melingkar, Minimalist flat vector icon on a pure white background. Preserve the subject's recognizable shape, proportions, orientation, and essential features. Simplify its appearance into a few large, smooth, rounded solid shapes while keeping the subject clearly identifiable. Create a clean, playful, modern pictogram with soft organic curves, simplified geometry, and minimal visual complexity. Center the complete subject on a 1:1 square canvas, occupying approximately 30% of the image area, with generous white space on all sides. No outlines, gradients, shadows, textures, realistic details, 3D effects, text, logos, frames, decorative elements, or additional objects. The final result should be a small, recognizable, professionally designed minimalist microstock icon, not a detailed illustration or realistic rendering.",
-    "negative": "outlines, contour lines, line art, strokes, sketch, pen drawing, borders, circle, circular frame, badge, rings, gradients, drop shadow, shadows, textures, realistic details, 3d render, photo, gloss, noise, grain, blur, text, watermark, logo, signature, frame, border, decorative elements, extra objects, multiple elements, disconnected pieces, deformed, ugly, unclear, cluttered, overdetailing",
-    "width": 512,
-    "height": 512
-  },
-  {
-    "name": "kucing_oren_tidur_melingkar_v4",
-    "positive": "minimalist flat vector icon of kucing oren tidur melingkar, Minimalist flat vector icon on a pure white background. Preserve the subject's recognizable shape, proportions, orientation, and essential features. Simplify its appearance into a few large, smooth, rounded solid shapes while keeping the subject clearly identifiable. Create a clean, playful, modern pictogram with soft organic curves, simplified geometry, and minimal visual complexity. Center the complete subject on a 1:1 square canvas, occupying approximately 30% of the image area, with generous white space on all sides. No outlines, gradients, shadows, textures, realistic details, 3D effects, text, logos, frames, decorative elements, or additional objects. The final result should be a small, recognizable, professionally designed minimalist microstock icon, not a detailed illustration or realistic rendering.",
-    "negative": "outlines, contour lines, line art, strokes, sketch, pen drawing, borders, circle, circular frame, badge, rings, gradients, drop shadow, shadows, textures, realistic details, 3d render, photo, gloss, noise, grain, blur, text, watermark, logo, signature, frame, border, decorative elements, extra objects, multiple elements, disconnected pieces, deformed, ugly, unclear, cluttered, overdetailing",
+    "name": "young_man_peace_sign",
+    "positive": "A flat vector illustration of a young man with dark wavy hair and a short goatee. He is looking at the camera with a playful expression and has his hand in front of his face making a clear 'peace' or 'V' sign, looking through the gap between his fingers. He is wearing a light cream or beige shirt with an open collar. The art style is minimalist, clean, with flat color blocks and simple black outlines. Pure white background. Minimalist character design, 1x1",
+    "negative": "photograph, realistic, 3d render, gradient, shadow, text, watermark, logo, signature, multiple people, extra limbs, deformed fingers, blurry, noisy",
     "width": 512,
     "height": 512
   }
