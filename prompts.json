@@ -1,8 +1,8 @@
 [
   {
-    "name": "young_man_peace_sign",
-    "positive": "A flat vector illustration of a young man with dark wavy hair and a short goatee. He is looking at the camera with a playful expression and has his hand in front of his face making a clear 'peace' or 'V' sign, looking through the gap between his fingers. He is wearing a light cream or beige shirt with an open collar. The art style is minimalist, clean, with flat color blocks and simple black outlines. Pure white background. Minimalist character design, 1x1",
-    "negative": "photograph, realistic, 3d render, gradient, shadow, text, watermark, logo, signature, multiple people, extra limbs, deformed fingers, blurry, noisy",
+    "name": "young_man_peace_sign_v2",
+    "positive": "A flat vector illustration of a young man with dark wavy hair and a short goatee. He is looking at the camera with a playful expression and has his hand in front of his face making a clear 'peace' or 'V' sign, looking through the gap between his fingers. The hand is simple and clean with five distinct well-proportioned fingers, two fingers raised straight in a clear V shape, hand anatomy correct, no extra fingers. He is wearing a light cream or beige shirt with an open collar. The art style is minimalist, clean, with flat color blocks and simple black outlines. Pure white background. Minimalist character design, 1x1",
+    "negative": "photograph, realistic, 3d render, gradient, shadow, text, watermark, logo, signature, multiple people, extra limbs, six fingers, missing fingers, webbed fingers, fused fingers, deformed hand, broken hand, distorted fingers, crooked fingers, blurry, noisy, mutant hand",
     "width": 512,
     "height": 512
   }
