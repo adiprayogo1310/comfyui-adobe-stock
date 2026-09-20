@@ -1,32 +1,9 @@
 [
   {
-    "name": "flat_cat_icon",
-    "positive": "cute cartoon cat face, flat vector illustration, minimalist sticker style, bold clean shapes, solid soft colors, simple design, isolated on clean white background, no outline text",
-    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed, extra limbs, multiple heads"
-  },
-  {
-    "name": "flat_cloud_sun",
-    "positive": "flat vector illustration of soft cartoon cloud and smiling sun, minimalist children sticker style, warm yellow and white on light blue background, bold simple shapes",
-    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed"
-  },
-  {
-    "name": "flat_stars_moon",
-    "positive": "flat vector illustration of crescent moon with small stars, minimalist cartoon night sky sticker, deep blue background, simple playful shapes, high contrast",
-    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, blurry, noise, deformed"
-  },
-  {
-    "name": "flat_dog_icon",
-    "positive": "cute cartoon puppy face, flat vector illustration, minimalist sticker style, bold clean shapes, solid warm colors, simple design, isolated on clean white background",
-    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed, extra limbs"
-  },
-  {
-    "name": "flat_rainbow_clouds",
-    "positive": "flat vector illustration of rainbow arching over cute cartoon clouds, minimalist children sticker style, bright cheerful colors on white background, bold simple shapes",
-    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, blurry, noise, deformed"
-  },
-  {
-    "name": "flat_fox_sleeping",
-    "positive": "cute sleeping cartoon fox curled up, flat vector illustration, minimalist sticker style, solid orange and white shapes, soft warm colors, isolated on clean white background",
-    "negative": "text, watermark, logo, signature, 3d render, realistic, photo, gradient shading, heavy shadows, blurry, noise, deformed, extra limbs"
+    "name": "kucing_oren_tidur",
+    "positive": "minimalist flat vector icon of kucing oren tidur, Pure white background. Minimalist flat vector icon, clean modern pictogram. A few large smooth rounded solid shapes, bold flat colors, soft organic curves, simplified geometry. Subject centered and occupying about 30 percent of the 1:1 square canvas with generous white space. Small recognizable professionally designed microstock icon, playful and modern.",
+    "negative": "outlines, strokes, borders, gradients, drop shadow, shadows, textures, realistic details, 3d render, photo, gloss, noise, blur, text, watermark, logo, signature, frame, border, decorative elements, extra objects, multiple elements",
+    "width": 512,
+    "height": 512
   }
 ]
