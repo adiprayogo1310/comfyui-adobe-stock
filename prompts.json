@@ -5,7 +5,7 @@
     "negative": "photograph, realistic, 3d render, gradient, shadow, text, watermark, logo, signature, multiple people, extra limbs, six fingers, missing fingers, webbed fingers, fused fingers, deformed hand, broken hand, distorted fingers, crooked fingers, blurry, noisy, mutant hand",
     "width": 1024,
     "height": 1024,
-    "steps": 4,
-    "cfg": 4.0
+    "steps": 25,
+    "cfg": 5.5
   }
 ]
