@@ -83,7 +83,7 @@ def exec_prompt(workflow):
     with urllib.request.urlopen(req, timeout=60) as resp:
         result = json.loads(resp.read().decode("utf-8"))
     prompt_id = result["prompt_id"]
-    for _ in range(900):
+    for _ in range(6000):  # ~3.3 jam maks (XL CPU lambat; workflow timeout 150m)
         try:
             with urllib.request.urlopen(f"{BASE_URL}/history/{prompt_id}", timeout=10) as resp:
                 history = json.loads(resp.read().decode("utf-8"))
