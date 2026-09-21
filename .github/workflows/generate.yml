@@ -40,7 +40,17 @@ jobs:
           git clone --depth 1 https://github.com/comfyanonymous/ComfyUI.git
           pip install -r <(grep -Ev '^(torch|torchvision|torchaudio)([<>=~]|$)' ComfyUI/requirements.txt)
 
+      - name: Cache model checkpoint
+        id: cache-model
+        uses: actions/cache@v4
+        with:
+          path: ComfyUI/models/checkpoints
+          key: model-${{ github.event.inputs.model_url }}
+          restore-keys: |
+            model-
+
       - name: Download model
+        if: steps.cache-model.outputs.cache-hit != 'true'
         run: |
           mkdir -p ComfyUI/models/checkpoints
           curl -fL --retry 5 --retry-all-errors -o ComfyUI/models/checkpoints/sd15.safetensors "${{ github.event.inputs.model_url }}"
