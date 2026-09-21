@@ -85,7 +85,7 @@ def exec_prompt(workflow):
     prompt_id = result["prompt_id"]
     for _ in range(6000):  # ~3.3 jam maks (XL CPU lambat; workflow timeout 150m)
         try:
-            with urllib.request.urlopen(f"{BASE_URL}/history/{prompt_id}", timeout=10) as resp:
+            with urllib.request.urlopen(f"{BASE_URL}/history/{prompt_id}", timeout=120) as resp:
                 history = json.loads(resp.read().decode("utf-8"))
             if prompt_id in history:
                 return history[prompt_id].get("outputs", {})
