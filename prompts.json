@@ -1,8 +1,8 @@
 [
   {
     "name": "umbrella",
-    "positive": "A simple 2D flat vector icon of an umbrella, drawn as a solid pink curved dome canopy with a straight dark handle below, single flat solid colors, no shading, no gradients, no highlights, no perspective, no depth, simple children's sticker style, isolated on a pure plain white background, subject small and centered occupying only about 20% of canvas, huge white empty space around it",
-    "negative": "3d render, photorealistic, realistic, photo, studio background, floor, wall, scene, environment, gradient, shading, highlight, shadow, reflection, glossy, plastic texture, fabric texture, depth, perspective, volumetric, ray tracing, soft lighting, outlines, contour lines, line art, strokes, sketch, borders, frame, badge, ring, text, watermark, logo, signature, extra objects, multiple elements, deformed, ugly, cluttered, overdetailing",
+    "positive": "A tiny minimalist flat icon of an umbrella on a pure white background. One single solid pink dome canopy shape and one dark gray handle, nothing else. Absolutely no shading, no gradients, no shadows, no tint, no rounded photo corners, no border. The umbrella is small, centered, occupying only the middle 15 percent of the image, surrounded by large empty pure white space. Childrens sticker, solid color shapes, 2D flat design.",
+    "negative": "shading, gradient, shadow, tint, colored background, pink background, gray background, rounded corners, photo corners, vignette, border, frame, large subject, close-up, full frame, 3d render, realistic, photo, studio, scene, depth, perspective, highlights, reflection, outlines, line art, sketch, text, watermark, extra objects, deformed, cluttered, overdetailing",
     "width": 1024,
     "height": 1024,
     "steps": 30,
