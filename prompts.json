@@ -1,9 +1,11 @@
 [
   {
     "name": "thumbs_up_hand",
-    "positive": "A minimalist flat vector icon of thumbs up hand: a closed fist with the thumb pointing upward, Minimalist flat vector icon on a pure white background. Preserve the subject's recognizable shape, proportions, orientation, and essential features. Simplify its appearance into a few large, smooth, rounded solid shapes while keeping the subject clearly identifiable. Create a clean, playful, modern pictogram with soft organic curves, simplified geometry, and minimal visual complexity. Center the complete subject on a 1:1 square canvas, occupying approximately 30% of the image area, with generous white space on all sides. No outlines, gradients, shadows, textures, realistic details, 3D effects, text, logos, frames, decorative elements, or additional objects. The final result should be a small, recognizable, professionally designed minimalist microstock icon, not a detailed illustration or realistic rendering.",
-    "negative": "outlines, contour lines, line art, strokes, sketch, pen drawing, borders, circle, circular frame, badge, rings, gradients, drop shadow, shadows, textures, realistic details, 3d render, photo, gloss, noise, grain, blur, text, watermark, logo, signature, frame, border, decorative elements, extra objects, multiple elements, disconnected pieces, deformed, ugly, unclear, cluttered, overdetailing, torus, ring, donut, cylinder, 3d abstract shape, geometric solid, wireframe, metallic, chrome, glass sphere",
-    "width": 512,
-    "height": 512
+    "positive": "A minimalist flat vector icon of a human hand showing a thumbs up gesture: a closed fist with the thumb pointing upward, clearly recognizable hand silhouette, flat vector illustration style, clean solid color blocks, simple design, pure white background, centered composition, generous white space, professional microstock icon",
+    "negative": "photo, realistic, 3d render, gradient, shading, shadows, texture, detailed, complex, text, watermark, logo, frame, border, extra objects, torus, ring, donut, cylinder, geometric abstract shape, cube, box, blob, deformed hands, extra fingers, missing fingers, six fingers, bad anatomy, blurry, lowres",
+    "width": 1024,
+    "height": 1024,
+    "steps": 30,
+    "cfg": 6.0
   }
 ]
